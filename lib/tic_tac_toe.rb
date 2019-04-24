@@ -81,7 +81,7 @@ class TicTacToe
     end
     return false
   end
-  
+
     def full?
       return !@board.any? {|pos| pos == " "}
     end
