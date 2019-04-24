@@ -69,7 +69,6 @@ class TicTacToe
     end
   end
 
-  
   def won?
     WIN_COMBINATIONS.each do |combo|
       pos_1 = @board[combo[0]]
@@ -82,5 +81,5 @@ class TicTacToe
     end
     return false
   end
-  
+
 end
