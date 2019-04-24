@@ -93,4 +93,12 @@ class TicTacToe
   def over?
     return full? || draw? || won?
   end
+
+  def winner
+    arr = won?
+    if arr
+      return @board[arr[0]]
+    end
+  end
+
 end
